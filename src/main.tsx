@@ -1,14 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App'
-import BtnC, { ButtonArrowComponent } from './component/ButtonComponent'
+import CalculatorComponent from './component/calculatorComponent'
 
 ReactDOM.render(
     <React.StrictMode>
-        <BtnC></BtnC>
-        <ButtonArrowComponent />
-    <App />
+        <CalculatorComponent />
   </React.StrictMode>,
   document.getElementById('root')
 )
