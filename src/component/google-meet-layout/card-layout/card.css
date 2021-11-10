@@ -1,0 +1,38 @@
+.mute-icon {
+            width: 20px;
+        }
+
+        .card-details {
+            width: 200px;
+            border: 1px solid;
+            padding: 10px;
+            height: 150px;
+            position: relative;
+            background: #232222;
+        }
+
+        .w-60 {
+            width: 60px;
+        }
+
+        .mute-container {
+            position: absolute;
+            left: 80%;
+            border: 1px solid #292828;
+            border-radius: 50%;
+            background: #292828;
+        }
+
+        .user-image {
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            width: 75px;
+        }
+
+        .user-name {
+            position: absolute;
+            top: 75%;
+            color: #fff;
+            left: 30%;
+        }
